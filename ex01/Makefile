@@ -5,15 +5,15 @@
 #                                                     +:+ +:+         +:+      #
 #    By: axgimene <axgimene@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/04/14 19:09:19 by axgimene          #+#    #+#              #
-#    Updated: 2026/04/21 13:28:46 by axgimene         ###   ########.fr        #
+#    Created: 2026/04/21 16:34:16 by axgimene          #+#    #+#              #
+#    Updated: 2026/04/21 16:40:58 by axgimene         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME        = bur
+NAME        = bur2
 CC          = c++
 FLAGS       = -Wall -Wextra -Werror -std=c++98
-SRCS        = main.cpp Bureaucrat.cpp
+SRCS        = main.cpp Bureaucrat.cpp Form.cpp
 OBJS        = $(SRCS:.cpp=.o)
 
 all: $(NAME)
