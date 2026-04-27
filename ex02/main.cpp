@@ -2,15 +2,16 @@
 #include "ShrubberyCreationForm.hpp"
 #include "RobotomyRequestForm.hpp"
 #include "PresidentialPardonForm.hpp"
+#include <cstdlib>
 #include <ctime>
 
 int main() {
-    std::srand(std::time(NULL)); // Semilla para el 50% de robotomía
+    srand(time(NULL)); // Semilla para el 50% de robotomía
 
     try {
         Bureaucrat boss("Boss", 1);
         Bureaucrat intern("Intern", 140);
-        
+
         ShrubberyCreationForm f1("Garden");
         RobotomyRequestForm f2("Bender");
         PresidentialPardonForm f3("Criminal");
