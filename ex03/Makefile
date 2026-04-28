@@ -5,16 +5,15 @@
 #                                                     +:+ +:+         +:+      #
 #    By: axgimene <axgimene@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
-#    Created: 2026/04/28 12:49:31 by axgimene          #+#    #+#              #
-#    Updated: 2026/04/28 12:49:34 by axgimene         ###   ########.fr        #
+#    Created: 2026/04/28 12:47:28 by axgimene          #+#    #+#              #
+#    Updated: 2026/04/28 13:55:50 by axgimene         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-
-NAME        = bur3
+NAME        = bur4
 CC          = c++
 FLAGS       = -Wall -Wextra -Werror -std=c++98
-SRCS        = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp
+SRCS        = main.cpp Bureaucrat.cpp AForm.cpp ShrubberyCreationForm.cpp RobotomyRequestForm.cpp PresidentialPardonForm.cpp Intern.cpp
 OBJS        = $(SRCS:.cpp=.o)
 
 all: $(NAME)

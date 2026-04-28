@@ -6,11 +6,11 @@
 #    By: axgimene <axgimene@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/04/14 19:09:19 by axgimene          #+#    #+#              #
-#    Updated: 2026/04/21 13:28:46 by axgimene         ###   ########.fr        #
+#    Updated: 2026/04/28 13:56:37 by axgimene         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME        = bur
+NAME        = bur1
 CC          = c++
 FLAGS       = -Wall -Wextra -Werror -std=c++98
 SRCS        = main.cpp Bureaucrat.cpp
